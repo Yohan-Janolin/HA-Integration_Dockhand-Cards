@@ -138,6 +138,7 @@ export class DockhandContainerCard extends LitElement implements LovelaceCard {
               </div>
             </div>
             <div class="header-right">
+              ${controls ? renderDeviceControls(this, this._hass, controls, name) : nothing}
               ${updatePending
                 ? renderIcon({
                     baseClass: 'header-icon',
@@ -159,7 +160,7 @@ export class DockhandContainerCard extends LitElement implements LovelaceCard {
             </div>
           </div>
           <div class="divider"></div>
-          ${this._renderBody(s, controls ? renderDeviceControls(this, this._hass, controls, name) : nothing)}
+          ${this._renderBody(s, nothing)}
         </div>
       </ha-card>
     `;
