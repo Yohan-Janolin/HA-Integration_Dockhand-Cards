@@ -1,3 +1,11 @@
+> [!NOTE]
+> **Personal fork of [raetha/ha-dockhand-cards](https://github.com/raetha/ha-dockhand-cards).**
+> It is rebuilt automatically from every upstream release, with a single change: on the Container
+> and Stack cards, the start / stop / restart / deploy controls are shown as small icons in the card
+> header instead of large buttons under the status.
+> Releases are tagged `vX.Y.Z-yj`. For everything else, see the documentation below and the
+> [original repository](https://github.com/raetha/ha-dockhand-cards).
+
 [![HACS Badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/default)
 [![Release](https://img.shields.io/github/v/release/raetha/ha-dockhand-cards?style=for-the-badge)](https://github.com/raetha/ha-dockhand-cards/releases)
 [![Validation](https://img.shields.io/github/actions/workflow/status/raetha/ha-dockhand-cards/ci.yml?label=validation&style=for-the-badge)](https://github.com/raetha/ha-dockhand-cards/actions/workflows/ci.yml)
